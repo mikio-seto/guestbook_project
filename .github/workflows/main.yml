@@ -21,6 +21,9 @@ env:
   JFrog_Project: "mikios"
   JF_URL: "solenglatest.jfrog.io"
   Application_Key: "guestbook-demo"
+  # NOTE
+  #  Settings > Secrets and variables > Actions > Repository secrets に JFROG_CLI_SIGNING_KEY　を追加
+  #  
 
 jobs:
 
