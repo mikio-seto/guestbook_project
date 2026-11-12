@@ -18,9 +18,9 @@ permissions:
 
 env:
   JOB_NAME: "guestbook_project"
-  JFrog_Project: "alexwangjp"
+  JFrog_Project: "mikios"
   JF_URL: "solenglatest.jfrog.io"
-  Application_Key: "guestbook"
+  Application_Key: "guestbook-demo"
 
 jobs:
 
@@ -71,8 +71,8 @@ jobs:
         env:
           JF_URL: https://${{ env.JF_URL }}
         with:
-          oidc-provider-name: liwei-github-oidc
-          oidc-audience: jfrog-github
+          oidc-provider-name: mikios-github-oidc
+          # oidc-audience: jfrog-github
 
       # 6. Show tool versions
       - name: Show tool versions
@@ -547,8 +547,8 @@ jobs:
         env:
           JF_URL: https://${{ env.JF_URL }}
         with:
-          oidc-provider-name: liwei-github-oidc
-          oidc-audience: jfrog-github
+          oidc-provider-name: mikios-github-oidc
+          # oidc-audience: jfrog-github
           disable-auto-build-publish: true
           disable-auto-evidence-collection: true
 
