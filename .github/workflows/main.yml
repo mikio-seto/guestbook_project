@@ -282,7 +282,8 @@ jobs:
         run: |
           set -euo pipefail
 
-          jar_url="${{ vars.ARTIFACTORY_URL }}/artifactory/${JFrog_Project}-mvn-dev-local/org/liwei/guestbook-microservices-k8s/gateway-service/1.0.${GITHUB_RUN_NUMBER}/gateway-service-1.0.${GITHUB_RUN_NUMBER}.jar"
+          #jar_url="${{ vars.ARTIFACTORY_URL }}/artifactory/${JFrog_Project}-mvn-dev-local/org/liwei/guestbook-microservices-k8s/gateway-service/1.0.${GITHUB_RUN_NUMBER}/gateway-service-1.0.${GITHUB_RUN_NUMBER}.jar"
+          jar_url="demo"
 
           docker_url="${{ vars.ARTIFACTORY_URL }}/${JFrog_Project}-docker-dev-local/gateway-service:${GITHUB_RUN_NUMBER}"
 
