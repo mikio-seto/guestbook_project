@@ -82,5 +82,24 @@ env:
   OIDC-PROVIDER-NAME: "<your-oidc>"
 ```
 
----
+# デモ手順
 
+## (Optional)ルール作成
+
+## ポリシーの作成と割り当て
+> JFrog Platform > (your project) > AppTrust > Policies > Create New Policy
+
+  - Scope: (今回のデモアプリ / プロジェクト全体)
+  - Operation Type: (任意の場所：今回は PROD|Release gate)
+  - Rule: (Critical CVE with CVSS score between 9.0 and 10.0 (skip if not applicable) など)
+  - Action: Fail / Manual Approval
+  - Policy Name: (any)
+
+NOTE: 今回のデモでは、slsaやsbom(cyclonedx)などがEvidenceとなっているので、それをGate ruleにしても良い。
+
+## (Optional) CRAなどのポリシーテンプレート追加(原則Releaseポリシーとなる)
+> JFrog Platform > (your project) > AppTrust > Compliance
+
+(CRA / NIST SSDF などのテンプレート選択) > (割り当てるアプリをScopeに指定) > 各規約のON/OFF - Warning/Fail を指定
+
+## AppTrustページのGUIをベースにPromotionを試す
