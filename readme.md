@@ -95,7 +95,7 @@ env:
   - Action: Fail / Manual Approval
   - Policy Name: (any)
 
-NOTE: 今回のデモでは、slsaやsbom(cyclonedx)などがEvidenceとなっているので、それをGate ruleにしても良い。
+NOTE: 今回のデモでは、slsaやsbom(cyclonedx)などがEvidenceとなっているので、それをGate ruleにしても良い。また、CVSSv3: 7.5が含まれるので、これを弾くポリシーも良い。
 
 ## (Optional) CRAなどのポリシーテンプレート追加(原則Releaseポリシーとなる)
 > JFrog Platform > (your project) > AppTrust > Compliance
