@@ -103,3 +103,9 @@ NOTE: 今回のデモでは、slsaやsbom(cyclonedx)などがEvidenceとなっ�
 (CRA / NIST SSDF などのテンプレート選択) > (割り当てるアプリをScopeに指定) > 各規約のON/OFF - Warning/Fail を指定
 
 ## AppTrustページのGUIをベースにPromotionを試す
+
+
+# note:
+1. https://github.com/new/import に移動
+2. The URL for your source repository 欄に、 https://github.com/mikio-seto/guestbook_project.git を入力
+
