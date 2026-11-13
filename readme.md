@@ -103,9 +103,13 @@ NOTE: 今回のデモでは、slsaやsbom(cyclonedx)などがEvidenceとなっ�
 (CRA / NIST SSDF などのテンプレート選択) > (割り当てるアプリをScopeに指定) > 各規約のON/OFF - Warning/Fail を指定
 
 ## AppTrustページのGUIをベースにPromotionを試す
+ポリシーの設定を変えたりしながら、Promotionのブロックなどを確認します。
 
-
-# note:
+# NOTE:
+## コピー方法
 1. https://github.com/new/import に移動
 2. The URL for your source repository 欄に、 https://github.com/mikio-seto/guestbook_project.git を入力
 
+## jf apptrustコマンド対応バージョン
+jfrog cli のバージョンは2.81.0以降が必要です。
+https://docs.jfrog.com/governance/docs/apptrust-prerequisites
