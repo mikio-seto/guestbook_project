@@ -69,7 +69,7 @@ openssl rsa -in private.pem -pubout -out public.pem
 ### GitHub変数
 > GitHub > (this repo) > Settings > Secrets and variables > Actions > Repository secrets > New repository Secret
 
-JFROG_CLI_SIGNING_KEY に public.pemの中身を登録
+JFROG_CLI_SIGNING_KEY に private.pemの中身を登録
 
 ## main.yml更新
 
