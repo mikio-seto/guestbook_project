@@ -18,10 +18,10 @@ permissions:
 
 env:
   JOB_NAME: "guestbook_project"
-  JFrog_Project: "mikios"
+  JFrog_Project: "mikio-demo02"
   JF_URL: "solenglatest.jfrog.io"
-  Application_Key: "guestbook-demo"
-  OIDC-PROVIDER-NAME: "mikios-github-oidc"
+  Application_Key: "guestbook-demo2"
+  OIDC-PROVIDER-NAME: "mikio-demo02"
   # NOTE
   #  Settings > Secrets and variables > Actions > Repository secrets に JFROG_CLI_SIGNING_KEY　を追加
   #  
