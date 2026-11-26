@@ -20,7 +20,7 @@ env:
   JOB_NAME: "guestbook_project"
   JFrog_Project: "mikios"
   JF_URL: "solenglatest.jfrog.io"
-  Application_Key: "cra-demo1"
+  Application_Key: "cra-demo2"
   OIDC-PROVIDER-NAME: "mikio-demo02"
   # NOTE
   #  Settings > Secrets and variables > Actions > Repository secrets に JFROG_CLI_SIGNING_KEY　を追加
